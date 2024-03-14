@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.container > * {
+  flex-basis: 100%;
+}
+
+.error {
+  margin-left: 1em;
+  color: red;
+}
+
+main header h1 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+main {
+  margin: 0 auto;
+  width: 960px;
+}
+
+footer {
+  margin-top: 2em;
+}
+
+/*------------------Header------------------*/
+.header {
+  background-color: black;
+}
+
+header nav {
+  margin: 0 auto;
+  width: 960px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+header ul {
+  list-style-type: none;
+  display: flex;
+}
+
+header nav form,
+header li a {
+  padding: 1em;
+  text-transform: uppercase;
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+
+header li a:hover {
+  background-color: gray;
+}
+
+header form input[type="text"],
+header form input[type="submit"] {
+  padding: 0 0.5em;
+}
+
+/*------------------Main------------------*/
+.body-form {
+  margin: 0 auto;
+  width: 50em;
+}
+main article > header {
+  margin-top: 2em;
+}
+main section {
+  margin-top: 0.4em;
+}
+
+main table {
+  margin: 0 auto;
+  /* border: 0.1em solid black; */
+  border-collapse: collapse;
+}
+
+main tr:nth-child(even) {
+  background-color: rgb(213, 213, 213);
+}
+
+main th,
+main td {
+  border-bottom: 0.1em solid black;
+  padding: 1em;
+}
+
+/*------------------Form------------------*/
+.input {
+  margin: 2em 0;
+}
+main fieldset {
+  padding: 1em;
+  border-radius: 2em;
+}
+
+main fieldset div div {
+  padding: 0.5em 0;
+}
+
+main label {
+  width: 7em;
+  float: left;
+}
+
+main input[type="submit"] {
+  display: block;
+  margin: 0 auto;
+  margin-top: 1em;
+  padding: 0.5em;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 0.5em;
+  color: white;
+  background-color: black;
+}
